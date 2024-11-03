@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Blocks</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="script.js"></script>
+</head>
+<body>
+
+<!-- Päävalikko -->
+<div id="sivu1" class="sivu">
+
+
+  <h1>Pixel Blocks</h1>
+  <h1>Version: Beta</h1>
+
+  <div id="menu">
+    <input type="text" id="maanNimi" placeholder="World name">
+    <button onclick="liityMaa()">Create a world / Join a world</button>
+  </div>
+
+  <div>
+    <button onclick="paavalikkoAsetuksetClick()">Settings</button>
+  </div>
+
+
+</div>
+
+<!-- Itse peli -->
+<div id="sivu2" class="sivu">
+  <canvas id="maailma" width="1520" height="1000"></canvas>
+  <div id="tekstiKentta">
+    <input type="text" id="puhekuplaTeksti" placeholder="Write something...">
+  </div>
+</div>
+
+<!-- Asetukset -->
+<div id="sivu3" class="sivu">
+  <h1>Settings</h1><br>
+  <h3>Music</h3>
+  <audio controls autoplay loop>
+  <source src="WhatsApp Audio 2024-03-11 at 18.03.37.aac">
+  <source src="WhatsApp Audio 2024-03-11 at 18.03.37.aac">
+  </audio>
+
+  <div class="sijoiteltu-teksti">
+    <h2><i>1. Press Esc to get to lobby <br> 2. Press enter to write <br> 3. Press A and D to move <br> 4. Press W to jump <br> 5. Click to break/place blocks
+    </i></h2>
+  </div>
+  
+  <button id="informationbutton">Information</button>
+</div>
+
+</body>
+</html>

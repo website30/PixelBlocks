@@ -1,0 +1,89 @@
+html, body {
+    padding: 0px;
+    margin: 0px;
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.sivu {
+    /* border: red 1px solid; */
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0px; /* Voit säätää tätä arvoa tarpeen mukaan */
+    left: 0px; /* Voit säätää tätä arvoa tarpeen mukaan */
+    display: none;
+}
+
+#menu {
+    margin-top: 100px;
+}
+
+canvas {
+    border: 1px solid black;
+    display: none;
+}
+
+#tekstiKentta {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#loginButton { 
+    display: block;
+}
+
+#playingText { 
+    display: none;
+}
+
+.sijoiteltu-teksti {
+    position: absolute;
+    top: 200px; 
+    left: 600px; 
+  }
+
+  h1 {
+    color: red;
+  }
+
+  h2 {
+    color: black;
+    top: 250px;
+    left: 200px;
+
+  }
+
+  h3 {
+     top: 50px;
+     left: 1300px;
+  }
+
+  #informationbutton {
+    width: 200px; /* Napin leveys */
+    height: 50px; /* Napin korkeus */
+    font-size: 18px; /* Fonttikoko */
+    background-color: #4CAF50; /* Taustaväri */
+    color: white; /* Tekstin väri */
+    border: none; /* Ilman reunaa */
+    border-radius: 5px; /* Pyöristetyt kulmat */
+    cursor: pointer; /* Kursorin muutos */
+    position: absolute; /* Sijoitus */
+    top: 60%; /* 50% ylhäältä */
+    left: 50%; /* 50% vasemmalta */
+    transform: translate(-50%, -50%); /* Keskittää napin */
+}
+
+#informationbutton:hover {
+    background-color: #45a049; /* Tummempi väri hover-tilassa */
+}
+
+  
+
